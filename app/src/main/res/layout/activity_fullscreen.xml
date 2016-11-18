@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_overlay"
+    tools:context="ismartdev.mn.checkin.FullscreenActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <com.facebook.login.widget.LoginButton
+                android:layout_alignParentBottom="true"
+                android:id="@+id/button_facebook_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="45dp"/>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

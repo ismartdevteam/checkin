@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Check In</string>
+    <string name="facebook_app_id">1229376810452002</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">Үндсэн</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkinFb">Check in Facebook</string>
+    <string name="online">Нээлттэй</string>
+    <string name="offline">Дууссан</string>
+    <string name="messageHint">...Enter the check in message</string>
+    <string name="error_qrcode_read">Qr code уншихад алдаа гарлаа</string>
+    <string name="qrcode_read_sms">QR code-г уншуулна уу</string>
+    <string name="title_activity_qr_code_reader">QR code уншуулах</string>
+    <string name="no_place">QR code олдсонгүй</string>
+    <string name="error_try_again">Алдаа гарлаа та дахин оролдоно уу</string>
+</resources>

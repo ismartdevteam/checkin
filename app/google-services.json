@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "297116791557",
+    "firebase_url": "https://checkin-45172.firebaseio.com",
+    "project_id": "checkin-45172",
+    "storage_bucket": "checkin-45172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297116791557:android:046d389eae5d0733",
+        "android_client_info": {
+          "package_name": "ismartdev.mn.checkin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297116791557-ure6rfmcob87u6g6o0lpbjogubd9qdpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ismartdev.mn.checkin",
+            "certificate_hash": "748E48F913958E92B96CEFF756631369EA65ECF1"
+          }
+        },
+        {
+          "client_id": "297116791557-r07b634thtdah29sb52indhjih1ddljp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt5jwn58i0YwLJkc9MWUkOpO93y-lIOXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297116791557-r07b634thtdah29sb52indhjih1ddljp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

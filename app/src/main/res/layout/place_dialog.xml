@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/place_coverImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <ismartdev.mn.checkin.util.CircleImageView
+            android:id="@+id/place_profileImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="16dp"
+            app:border_color="@android:color/white"
+            app:border_width="4px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/place_coverImage"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/place_name"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/place_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:textColorHint="@color/colorAccent"
+                android:hint="@string/messageHint"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/place_checkIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/com_facebook_button_background"
+                android:text="@string/checkinFb"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
